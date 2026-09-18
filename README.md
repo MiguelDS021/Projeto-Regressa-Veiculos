@@ -5,7 +5,7 @@ usando um modelo de Regressão Linear.
 
 📊 Sobre o dataset
 
-Foi utilizado o Automobile Dataset, da UCI Machine Learning Repository — um conjunto de dados com 205 carros e 26 características 
+Foi utilizado o Automobile Dataset, da UCI Machine Learning Repository, um conjunto de dados com 205 carros e 26 características 
 (motor, dimensões, tipo de combustível, potência, consumo, entre outras).
 
 🎯 Objetivo
@@ -14,7 +14,9 @@ Construir um modelo capaz de prever a variável price (preço do carro) com base
 aplicando um fluxo completo de ciência de dados: da limpeza dos dados brutos até a avaliação do modelo treinado.
 
 🛠️ Etapas do projeto
-Importação e carregamento dos dados — leitura do CSV (sem cabeçalho), atribuição dos nomes de colunas conforme documentação da UCI, tratamento do caractere "?" como valor nulo.
+
+Importação e carregamento dos dados 
+leitura do CSV (sem cabeçalho), atribuição dos nomes de colunas conforme documentação da UCI, tratamento do caractere "?" como valor nulo.
 
 Limpeza de dados
 Remoção de linhas com valores nulos na variável alvo (price)
@@ -24,7 +26,8 @@ Verificação de duplicatas (nenhuma encontrada)
 Análise de outliers — detecção via IQR (intervalo interquartil). Outliers identificados em price correspondiam a marcas de luxo 
 (BMW, Jaguar, Porsche, Mercedes-Benz) e foram mantidos, por representarem dados legítimos.
 
-Análise exploratória (EDA) — visualização de relações entre variáveis (scatter plots) e análise de correlação com a variável alvo.
+Análise exploratória (EDA)  
+visualização de relações entre variáveis (scatter plots) e análise de correlação com a variável alvo.
 
 Feature engineering
 Seleção de features numéricas com maior correlação com price, removendo colunas redundantes por multicolinearidade
